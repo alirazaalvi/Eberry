@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Hotel } from './types';
-import hotelPlaceholder from './../../assets/images/hotel.jpg';
+import { getRandomImage } from '../../helpers/common';
 import Button from '../../controls/Button';
 
 
@@ -19,7 +19,7 @@ export const HotelListItem = (props: ComponentProps) => {
         <article className="media">
           <div className="media-left">
             <figure className="image">
-              <img className="image-is-thumbnail" src={hotelPlaceholder} alt="hotel"/>
+              <img className="image-is-thumbnail" src={getRandomImage()} alt="hotel"/>
             </figure>
           </div>
           <div className="media-content">
