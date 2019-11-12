@@ -47,7 +47,7 @@ const InnerForm: React.SFC<InjectedFormikProps<FormProps, FormValues>> = (
         </div>
         <div className="column is-half">
           {props.touched.location && props.errors.location &&
-          <span data-testid="error-title" className="has-text-danger">{props.errors.location}</span>}
+          <span data-testid="error-title" className="has-text-white">{props.errors.location}</span>}
         </div>
       </div>
     </div>

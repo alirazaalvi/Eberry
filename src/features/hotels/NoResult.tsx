@@ -9,7 +9,7 @@ export const NoResult = (props: OwnProps) => (
         <div className="box">
         <article className="media">
             <div className="content">
-            <strong className="has-text-success	">
+            <strong>
                 {props.message}
             </strong>
             </div>
