@@ -41,7 +41,10 @@ npm test
 npm run coverage
 
 # Demo page url
-https://alirazaalvi.github.io/EBerry/
+http://vigorous-tramp.surge.sh/
+
+# Storybook
+npm run storybook
 ```
 
 Project Structure
