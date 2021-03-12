@@ -1,5 +1,5 @@
-# eBerry
-Sample app for eBerry test.
+# Hotels
+Basic api listing.
 
 Table of Contents
 -----------------
@@ -17,7 +17,7 @@ Getting Started
 The easiest way to get started is to clone the repository:
 ```bash
 # Get the latest snapshot
-git clone https://github.com/alirazaalvi/EBerry.git myproject
+git clone https://github.com/alirazaalvi/hotels.git myproject
 
 # Change directory
 cd myproject
@@ -39,9 +39,6 @@ npm test
 
 # Coverage
 npm run coverage
-
-# Demo page url
-http://vigorous-tramp.surge.sh/
 
 # Storybook
 npm run storybook
